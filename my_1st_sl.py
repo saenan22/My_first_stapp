@@ -32,13 +32,6 @@ st.bar_chart(chart_data) # 바 차트 출력
 
 
 from PIL import Image
-import streamlit as st
-
-# 텍스트 출력
-st.write('# 4. 이미지 표시하기')
-
-# 이미지 파일 열기
-img = Image.open('python.png')
-
-# 이미지 출력
-st.image(img, width=300)
+st.write('# 4. 이미지 표시하기') # 텍스트 출력
+img= Image.open('python.png')
+st.image(img,width=300)
