@@ -22,7 +22,7 @@ df = pd.DataFrame({ # DataFrame 생성
 '이름': ['홍길동', '이순신', '강감찬'],
  '나이': [20, 45, 35]
  })
- st.dataframe(df) # DataFrame 출력
+st.dataframe(df) # DataFrame 출력
 
 
 # 그래프 출력
